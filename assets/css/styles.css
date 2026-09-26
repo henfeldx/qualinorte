@@ -1046,38 +1046,6 @@ form.stack { display: flex; flex-direction: column; gap: .95rem; }
 /* ============================================================
    WHATSAPP FLOAT + STICKY BOTTOM ACTION BAR (mobile)
    ============================================================ */
-.wa-float {
-  position: fixed;
-  right: 16px;
-  bottom: 88px;
-  z-index: 90;
-  background: #25d366;
-  color: #fff;
-  width: 54px; height: 54px;
-  border-radius: 50%;
-  display: none; align-items: center; justify-content: center;
-  box-shadow:
-    0px 2px 2px 0px rgba(37,211,102,0.20),
-    0px 4px 4px 0px rgba(37,211,102,0.16),
-    0px 8px 8px 0px rgba(37,211,102,0.12),
-    0px 16px 16px 0px rgba(37,211,102,0.08);
-  transition:
-    transform var(--dur-med) var(--ease),
-    box-shadow var(--dur-med) var(--ease);
-}
-.wa-float:hover {
-  transform: translateY(-2px) scale(1.04);
-  color: #fff;
-  box-shadow:
-    0px 2px 2px 0px rgba(37,211,102,0.28),
-    0px 4px 4px 0px rgba(37,211,102,0.22),
-    0px 8px 8px 0px rgba(37,211,102,0.16),
-    0px 16px 16px 0px rgba(37,211,102,0.11),
-    0px 24px 24px 0px rgba(37,211,102,0.08);
-}
-.wa-float:active { transform: scale(.96); }
-.wa-float svg { width: 28px; height: 28px; }
-
 /* Drawer */
 .quote-drawer {
   position: fixed;
@@ -1409,8 +1377,6 @@ body { padding-bottom: calc(76px + env(safe-area-inset-bottom, 0)); }
   .section-header { margin-bottom: 2.5rem; }
   .page-hero { padding: 3rem 0 3.5rem; }
   .page-hero p { font-size: 1rem; }
-  .wa-float { display: inline-flex; bottom: 22px; right: 22px; width: 58px; height: 58px; }
-  .wa-float svg { width: 30px; height: 30px; }
   .toast { left: auto; bottom: 100px; right: 22px; max-width: 320px; }
   .mobile-bottom-bar { display: none; }
   body { padding-bottom: 0; }
