@@ -1,6 +1,6 @@
 // Qualinorte — main.js
 // Consulta individual por item, sem carrinho.
-const WHATSAPP = '5592981181110';
+const WHATSAPP = '559285329682';
 
 function findProduct(slug) { return (window.HAUS_PRODUCTS || []).find(p => p.slug === slug); }
 
@@ -126,7 +126,7 @@ function renderProductDetail() {
       <table class="spec-table">${specsHTML}</table>
       <div style="display:flex;gap:.5rem;flex-wrap:wrap">
         <a class="btn btn-primary" href="${whatsappUrl(p)}" target="_blank" rel="noopener">${WA_ICON} Consultar por WhatsApp</a>
-        <a class="btn btn-ghost" href="tel:+559232136663">Ligar (92) 3213-6663</a>
+        <a class="btn btn-ghost" href="tel:+559285329682">Ligar (92) 8532-9682</a>
       </div>
     </div>`;
   const related = window.HAUS_PRODUCTS.filter(x => x.category === p.category && x.slug !== p.slug).slice(0,3);

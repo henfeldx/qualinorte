@@ -8,7 +8,7 @@ function renderHeader() {
   <div class="topbar">
     <div class="container">
       <span class="topbar-loc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Avenida Tefé, 31 · Japiim · Manaus/AM</span>
-      <span>Seg a Qui 7h30–17h30 · Sex 7h30–16h30 · <a href="tel:+559232136663">(92) 3213-6663</a></span>
+      <span>Seg a Qui 7h30–17h30 · Sex 7h30–16h30 · <a href="tel:+559285329682">(92) 8532-9682</a></span>
     </div>
   </div>
   <div class="container header-inner">
@@ -25,7 +25,7 @@ function renderHeader() {
       <a href="contato.html">Contato</a>
     </nav>
     <div class="header-actions">
-      <a href="https://wa.me/5592981181110?text=Ol%C3%A1%2C%20gostaria%20de%20um%20atendimento." target="_blank" rel="noopener" class="icon-btn" aria-label="WhatsApp" title="Falar no WhatsApp">
+      <a href="https://wa.me/559285329682?text=Ol%C3%A1%2C%20gostaria%20de%20um%20atendimento." target="_blank" rel="noopener" class="icon-btn" aria-label="WhatsApp" title="Falar no WhatsApp">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.4 8.4 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.4 8.4 0 0 1-3.8-.9L3 21l1.9-5.7a8.4 8.4 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.4 8.4 0 0 1 3.8-.9h.5a8.5 8.5 0 0 1 8 8v.5z"/></svg>
       </a>
       <button id="menu-toggle" class="icon-btn menu-toggle" aria-label="Abrir menu">
@@ -77,10 +77,10 @@ function renderFooter() {
       <div>
         <h4>Atendimento</h4>
         <ul class="footer-contact">
-          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7 12.8 12.8 0 0 0 .7 2.8 2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5 12.8 12.8 0 0 0 2.8.7A2 2 0 0 1 22 16.9z"/></svg><span>(92) 3213-6663</span></li>
-          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.4 8.4 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.4 8.4 0 0 1-3.8-.9L3 21l1.9-5.7a8.4 8.4 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.4 8.4 0 0 1 3.8-.9h.5a8.5 8.5 0 0 1 8 8v.5z"/></svg><span>WhatsApp (92) 98118-1110</span></li>
-          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 6l10 7 10-7"/></svg><span>Geral/Financeiro:<br><a href="mailto:contato@qualinorte.med.br">contato@qualinorte.med.br</a></span></li>
-          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2l1 4h12l-2 8H8L6 2z"/><circle cx="9" cy="20" r="1.5"/><circle cx="17" cy="20" r="1.5"/></svg><span>Compras:<br><a href="mailto:contato@qualinorte.med.br">contato@qualinorte.med.br</a></span></li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7 12.8 12.8 0 0 0 .7 2.8 2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5 12.8 12.8 0 0 0 2.8.7A2 2 0 0 1 22 16.9z"/></svg><span>(92) 8532-9682</span></li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.4 8.4 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.4 8.4 0 0 1-3.8-.9L3 21l1.9-5.7a8.4 8.4 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.4 8.4 0 0 1 3.8-.9h.5a8.5 8.5 0 0 1 8 8v.5z"/></svg><span>WhatsApp (92) 8532-9682</span></li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 6l10 7 10-7"/></svg><span>Geral/Financeiro:<br><a href="mailto:qualinorte.am@gmail.com">qualinorte.am@gmail.com</a></span></li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2l1 4h12l-2 8H8L6 2z"/><circle cx="9" cy="20" r="1.5"/><circle cx="17" cy="20" r="1.5"/></svg><span>Compras:<br><a href="mailto:qualinorte.am@gmail.com">qualinorte.am@gmail.com</a></span></li>
           <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><span>Avenida Tefé, 31 · Japiim<br/>Manaus – AM · CEP 69000-000</span></li>
           <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>Seg a Qui · 7h30–17h30<br/>Sex · 7h30–16h30</span></li>
         </ul>
@@ -107,11 +107,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const bar = document.createElement('div');
     bar.className = 'mobile-bottom-bar';
     bar.innerHTML = `
-      <a class="mbb-btn" href="tel:+559232136663" aria-label="Ligar">
+      <a class="mbb-btn" href="tel:+559285329682" aria-label="Ligar">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .3 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5c.9.4 1.8.6 2.8.7a2 2 0 0 1 1.8 2z"/></svg>
         <span>Ligar</span>
       </a>
-      <a class="mbb-btn mbb-primary" href="https://wa.me/5592981181110?text=Ol%C3%A1%2C%20gostaria%20de%20um%20atendimento." target="_blank" rel="noopener">
+      <a class="mbb-btn mbb-primary" href="https://wa.me/559285329682?text=Ol%C3%A1%2C%20gostaria%20de%20um%20atendimento." target="_blank" rel="noopener">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.4 8.4 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.4 8.4 0 0 1-3.8-.9L3 21l1.9-5.7a8.4 8.4 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.4 8.4 0 0 1 3.8-.9h.5a8.5 8.5 0 0 1 8 8v.5z"/></svg>
         <span>WhatsApp</span>
       </a>`;
