@@ -1,0 +1,6 @@
+.claude
+node_modules
+*.md
+!index.html
+pesquisa-concorrentes-qualinorte.md
+prompt-site-qualinorte.md
